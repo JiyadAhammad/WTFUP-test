@@ -35,7 +35,7 @@ class SplashScreen extends StatelessWidget {
                     ),
                     kheight,
                     SizedBox(
-                      child: Image.asset('asset/image/cloud.png'),
+                      child: Image.asset('asset/image/image1.webp'),
                     ),
                     kheight20,
                   ],

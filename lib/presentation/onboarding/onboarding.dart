@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:liquid_swipe/liquid_swipe.dart';
-import 'package:wtftest/presentation/home/home_screen.dart';
 
 import '../constant/color/colors.dart';
+import '../home/home_screen.dart';
 import 'widget/onboarding_container.dart';
 
 class ItemData {
@@ -40,35 +40,35 @@ class _OnBoardingScreen extends State<OnBoardingScreen> {
   List<ItemData> data = <ItemData>[
     ItemData(
       Colors.blue,
-      'asset/image/onboardingimg1.jpg',
+      'asset/image/image1.webp',
       'Hi',
       "It's Me",
       'JIYAD',
     ),
     ItemData(
       Colors.cyan,
-      'asset/image/onboardingimg2.jpg',
+      'asset/image/image1.webp',
       'Take a',
       'Look At',
       'New App',
     ),
     ItemData(
       Colors.green,
-      'asset/image/onboardingimg3.jpg',
+      'asset/image/image1.webp',
       'Liked?',
       'Fork!',
       'Enjoyed!',
     ),
     ItemData(
       Colors.yellow,
-      'asset/image/onboardingimg4.jpg',
+      'asset/image/image1.webp',
       'Can be',
       'Used for',
       'intoducing',
     ),
     ItemData(
       Colors.red,
-      'asset/image/onboardingimg5.jpg',
+      'asset/image/image1.webp',
       'Do',
       'try it',
       'Thank you',
